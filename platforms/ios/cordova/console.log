@@ -1,0 +1,10 @@
+2015-01-28 15:41:21.861 authentication[40424:653915] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stan/Library/Developer/CoreSimulator/Devices/D10B882A-00FA-4CE3-8D14-CB2F9C6607B3/data/Containers/Data/Application/A05143DD-A575-48CC-8C64-6AC9C064CDA0/Library/Cookies/Cookies.binarycookies
+2015-01-28 15:41:22.375 authentication[40424:653915] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-28 15:41:22.375 authentication[40424:653915] Multi-tasking -> Device: YES, App: YES
+2015-01-28 15:41:22.405 authentication[40424:653915] Unlimited access to network resources
+2015-01-28 15:41:23.122 authentication[40424:653915] [CDVTimer][keyboard] 0.131011ms
+2015-01-28 15:41:23.123 authentication[40424:653915] Init FacebookConnect Session
+2015-01-28 15:41:23.150 authentication[40424:653915] [CDVTimer][facebookconnectplugin] 27.906001ms
+2015-01-28 15:41:23.150 authentication[40424:653915] [CDVTimer][TotalPluginStartup] 28.582990ms
+2015-01-28 15:41:24.542 authentication[40424:653915] Resetting plugins due to page load.
+2015-01-28 15:41:24.952 authentication[40424:653915] Finished load of: file:///Users/stan/Library/Developer/CoreSimulator/Devices/D10B882A-00FA-4CE3-8D14-CB2F9C6607B3/data/Containers/Bundle/Application/0E94BE97-DBE9-4271-BDB0-FDE0160CE6A1/authentication.app/www/index.html
