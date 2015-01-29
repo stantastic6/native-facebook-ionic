@@ -18,6 +18,21 @@ angular.module('starter', ['ionic'])
   });
 })
 
+.config(function($stateProvider, $urlRouterProvider) {
+    $stateProvider
+        .state('login', {
+            url: '/login',
+            templateUrl: 'templates/login.html',
+            controller: 'authenticationCtrl'
+        // })
+        // .state('user', {
+   //          url: '/users/:userId',
+   //          templateUrl: 'templates/user.html',
+   //          controller: 'UserController'
+        });
+        $urlRouterProvider.otherwise('/login');
+})
+
 .controller('authenticationCtrl', function($scope) {
   
   $scope.login = function() {

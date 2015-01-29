@@ -22,19 +22,13 @@
     <script src="js/app.js"></script>
 
   </head>
-  <body ng-app="starter" ng-controller="authenticationCtrl">
+  <body ng-app="starter">
 
     <ion-pane>
       <ion-header-bar class="bar-stable">
         <h1 class="title">Native Facebook Authentication</h1>
       </ion-header-bar>
-      <ion-content>
-        <div class="row row-center">
-          <div class="col col-offset-100"><br><br><br><br><br>
-            <button class="button button-full button-positive" ng-hide="userID" ng-click="login()">Login with <strong>Facebook</strong></button>
-          </div>
-        </div>
-      </ion-content>
+      <ion-nav-view></ion-nav-view>
     </ion-pane>
   </body>
 </html>
