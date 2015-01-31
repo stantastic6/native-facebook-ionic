@@ -1,0 +1,12 @@
+2015-01-30 17:37:28.919 nativeFacebookAuthentication[43520:467648] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/stan/Library/Developer/CoreSimulator/Devices/D10B882A-00FA-4CE3-8D14-CB2F9C6607B3/data/Containers/Data/Application/71AB3F22-100A-4312-B50E-802BC465A78F/Library/Cookies/Cookies.binarycookies
+2015-01-30 17:37:29.309 nativeFacebookAuthentication[43520:467648] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-30 17:37:29.310 nativeFacebookAuthentication[43520:467648] Multi-tasking -> Device: YES, App: YES
+2015-01-30 17:37:29.330 nativeFacebookAuthentication[43520:467648] Unlimited access to network resources
+2015-01-30 17:37:29.928 nativeFacebookAuthentication[43520:467648] Init FacebookConnect Session
+2015-01-30 17:37:29.967 nativeFacebookAuthentication[43520:467648] [CDVTimer][facebookconnectplugin] 38.930953ms
+2015-01-30 17:37:29.967 nativeFacebookAuthentication[43520:467648] [CDVTimer][TotalPluginStartup] 39.148033ms
+2015-01-30 17:37:30.460 nativeFacebookAuthentication[43520:467648] Resetting plugins due to page load.
+2015-01-30 17:37:30.855 nativeFacebookAuthentication[43520:467648] Finished load of: file:///Users/stan/Library/Developer/CoreSimulator/Devices/D10B882A-00FA-4CE3-8D14-CB2F9C6607B3/data/Containers/Bundle/Application/0E31F111-52CB-4923-B8BF-8EF411EF8E70/nativeFacebookAuthentication.app/www/index.html
+2015-01-30 17:37:33.621 nativeFacebookAuthentication[43520:467648] THREAD WARNING: ['FacebookConnectPlugin'] took '48.914062' ms. Plugin should use a background thread.
+2015-01-30 17:37:42.682 nativeFacebookAuthentication[43520:467648] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <com.facebook.sdk:InvalidOperationException> FBSession: an attempt was made to open an already opened or closed session
+2015-01-30 17:37:50.195 nativeFacebookAuthentication[43520:467648] *** WebKit discarded an uncaught exception in the webView:decidePolicyForNavigationAction:request:frame:decisionListener: delegate: <com.facebook.sdk:InvalidOperationException> FBSession: an attempt was made to open an already opened or closed session

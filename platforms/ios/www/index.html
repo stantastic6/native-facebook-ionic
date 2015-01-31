@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+    <script src="cordova.js"></script>
+    <script src="/plugins/com.phonegap.plugins.facebookconnect/facebookConnectPlugin.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter" class="platform-ios platform-cordova platform-webview">
+
+    <ion-pane>
+      <ion-header-bar class="bar-stable">
+        <h1 class="title">Login</h1>
+      </ion-header-bar>
+      <ion-content ng-controller="facebookAuthenticationCtrl">
+        <div id="fb-root"></div>
+        <div class="row">
+          <div class="col col-center col-offset-20">
+            <button class="button button-positive" ng-hide="userID" ng-click="login()">Login with <strong>Facebook</strong></button>
+          </div>
+        </div>
+
+        <div class ="card" ng-show="userID">
+          <div class ="item" ng-bind="response"></div>
+          <div class ="item" ng-show="userID"> Logged in successfully....<br> 
+            <div>Name: <span ng-bind="userName"></span></div>
+            <div>Email: <span ng-bind="userEmail"></span></div>
+            <div>User ID: <span ng-bind="userID"></span></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-center col-offset-33">
+            <button class ="button button-assertive" ng-show="userID" ng-click="logout()">Log out</button>
+          </div>
+        </div>
+      </ion-content>
+    </ion-pane>
+  </body>
+</html>

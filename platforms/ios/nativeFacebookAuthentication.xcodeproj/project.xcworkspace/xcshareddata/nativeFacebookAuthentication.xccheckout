@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F02C1D4-5809-4B0F-8572-48A99F88573B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>nativeFacebookAuthentication</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>240D87FE6412458A5E76721594766351F83188B9</key>
+		<string>https://github.com/stantastic6/native-facebook-ionic.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/nativeFacebookAuthentication.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>240D87FE6412458A5E76721594766351F83188B9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/stantastic6/native-facebook-ionic.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>240D87FE6412458A5E76721594766351F83188B9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>240D87FE6412458A5E76721594766351F83188B9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>native-facebook-ionic</string>
+		</dict>
+	</array>
+</dict>
+</plist>
